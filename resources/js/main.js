@@ -1,14 +1,18 @@
 $(document).ready(function(){
-  $('.a').mouseenter(function (){
-    $(this).animate({'padding-left':'50%'}, 1000);
-    });
-  $('.a').mouseleave(function () {
-    $(this).animate({'padding-left':'0'}, 1000)
+  $('.aa').mouseenter(function (){
+    $(this).children().animate({'width':'45%'}, 100);
+    $(this).animate({'width':'90%'}, 100);
   });
-  $('.al').mouseenter(function (){
-    $(this).animate({'padding-right':'50%'}, 1000);
-    });
-  $('.al').mouseleave(function () {
-    $(this).animate({'padding-right':'0'}, 1000)
+  $('.aa').mouseleave(function () {
+    $(this).children().animate({'width':'100%'}, 100);
+    $(this).animate({'width':'40%'}, 100);
+  });
+  $('.aal').mouseenter(function (){
+    $(this).children().animate({'width':'45%'}, 100);
+    $(this).animate({'width':'90%'}, 100);
+  });
+  $('.aal').mouseleave(function () {
+    $(this).children().animate({'width':'100%'}, 100);
+    $(this).animate({'width':'40%'}, 100);
   });
 });
