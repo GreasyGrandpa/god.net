@@ -159,7 +159,7 @@ h1{
   box-shadow: 5px 10px hsla(0, 100%, 0%, .5);
 }
 .a{
-  width: 100%;
+  width: 16rem;
   height: auto;
   font-family: 'Rajdhani', sans-serif;
   background-color: white;
@@ -179,7 +179,7 @@ h1{
   color: hsla(0, 100%, 10%, 1);
 }
 .al{
-  width: 100%;
+  width: 16rem;
   height: auto;
   font-family: 'Rajdhani', sans-serif;
   background-color: white;
@@ -187,6 +187,40 @@ h1{
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.fa{
+  display: none;
+  font-size: 5rem;
+}
+.fa-dollar-sign{
+  color: green;
+}
+.fa-plug{
+  color: orange;
+}
+.fa-fast-forward{
+  color: black;
+}
+.fa-clock{
+  color: black;
+}
+.fa-calendar-check{
+  color: blue;
+}
+.fa-wifi{
+  color: aquamarine;
+}
+.fa-concierge-bell{
+  color: yellow;
+}
+.fa-wrench{
+  color: grey;
+}
+.fa-window-restore{
+  color: purple;
+}
+.fa-users{
+  color: rgba(0, 174, 255, 1);
 }
 /*media queries and screen fixes*/
 @media screen and (max-width: 1300px){
