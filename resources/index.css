@@ -90,7 +90,7 @@ h1{
   height: 100%;
   padding-top: 8rem;
   z-index: 1;
-  background-image: url(./banner.png);
+  background-image: url(./banner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -121,7 +121,7 @@ h1{
   width: 100%;
   height: 100%;
   display: flex;
-  background-image: url(./code.png);
+  background-image: url(./spoon.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -222,7 +222,10 @@ h1{
   color: grey;
 }
 .fa-bone{
-  color: white;
+  color: orange;
+}
+.fa-heart{
+  color: red;
 }
 /*second banner*/
 .bannerb{
