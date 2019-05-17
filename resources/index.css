@@ -46,6 +46,11 @@ font-family: 'Rajdhani', sans-serif;*/
   align-items: center;
   color: hsla(0, 0%, 100%, .99);
 }
+/*universal styles*/
+::selection {
+  color: hsla(111, 100%, 50%, 1);
+  background: hsla(282, 100%, 50%, 1);
+}
 *{
   font-family: 'Rajdhani', sans-serif;
   color: white;
@@ -195,32 +200,147 @@ h1{
 .fa-dollar-sign{
   color: green;
 }
-.fa-plug{
-  color: orange;
-}
-.fa-fast-forward{
-  color: black;
-}
-.fa-clock{
-  color: black;
-}
-.fa-calendar-check{
+.fa-chart-pie{
   color: blue;
 }
-.fa-wifi{
+.fa-arrow-down{
+  color: black;
+}
+.fa-user-md{
   color: aquamarine;
 }
-.fa-concierge-bell{
-  color: yellow;
+.fa-hamburger{
+  color: orange;
 }
-.fa-wrench{
-  color: grey;
+.fa-notes-medical{
+  color: lightgreen;
 }
-.fa-window-restore{
+.fa-thumbs-up{
   color: purple;
 }
-.fa-users{
-  color: rgba(0, 174, 255, 1);
+.fa-chart-line{
+  color: grey;
+}
+.fa-bone{
+  color: white;
+}
+/*second banner*/
+.bannerb{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+}
+.bannerb .headingb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  margin: 0;
+}
+.bannerb .headingb h1{
+  color: black;
+  text-shadow: 4px 4px hsla(228, 7%, 23%, .7);
+  font-size: 7rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+}
+/*styling the first example box*/
+.weather .lefta h1{
+  font-size: 3rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+}
+.weather .button{
+  background-color: hsla(228, 7%, 23%, 1);
+  color: black;
+  text-align: center;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5rem;
+}
+.weather .button p{
+  font-family: 'Rajdhani', sans-serif;
+}
+.weather .button:hover{
+  background-color: hsla(228, 7%, 10%, 1);
+  margin-top: .25rem;
+  height: 2.5rem;
+  transition: all .10s linear;
+}
+.lefta{
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 80%;
+  height: 10rem;
+  background-image: url(https://localtvwqad.files.wordpress.com/2016/10/interactive-radar-clip.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid hsla(228, 7%, 23%, 1);
+  box-shadow: 5px 10px hsla(0, 100%, 0%, .5)
+}
+.weather .lefta div{
+  width: 80%
+}
+.imputs{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 50%;
+  color: black;
+}
+.righta p{
+  width: 80%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+}
+.righta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+/*weather info display stuff*/
+.conditiona,
+.temp,
+.humidity{
+  height: 100%;
+  width: 20%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+}
+.conditiona h1,
+.temp h1,
+.humidity h1{
+  border-bottom: 3px solid black;
+  color: black;
 }
 /*media queries and screen fixes*/
 @media screen and (max-width: 1300px){
